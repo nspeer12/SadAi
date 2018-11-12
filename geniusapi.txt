@@ -1,0 +1,3 @@
+client id: 35zvAFpfnNOXn32JQeTNg3qfiWrXiHOMtF76uIfln1-q0At4UZUC6ZicReo2btRD
+secret key: yZlZoebDbcMOUV6R3jvZOBofg3RJ5tndpYLjC7LDBWx5tr_vpCkip27h619pUpCH9rhZqHjn-NBAWJlo4-YMtA
+access token: 4qDdMEp4tR4IOTGTNWRWFdbw2vaB3baJ-3UGyefet7MupqKwz4tG9ZyoDwJYE_sw
