@@ -1,20 +1,19 @@
-import sqlite3
 import json
-from datetime import datetime
+from pprint import pprint
 
-#sql_transaction = []
+# open json file
+with open('Lyrics_LilPeep.json') as f:
+	data = json.load(f)
 
-connection = sqlite3.connect('{}.db')
-c = connection.cursor()
+# create txt file
+txt_file = open("lyric_data.txt", "w")
 
-timeframe = '2015-05'
-sql_transaction = []
+# parse lyrics and print to txt file
 
-def create_table():
-    c.execute("""CREATE TABLE IF NOT EXISTS parent_reply(title, year)""")
 
-if __name__ == "__main__":
-    create_table()
-    row_counter = 0
-    #paired_rows = 0
-    with open("/Lyrics_LilPeep.json".format(timeframe.split(',')))
+x = 0
+for i in data["songs"]:
+	txt_file.write(data["songs"][x]["lyrics"])
+	x+=1
+
+txt_file.close()
